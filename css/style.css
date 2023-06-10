@@ -1,116 +1,59 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
 }
 
 header {
+    width: 100%;
+    background-image: url('..//images/header--background.png');
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+}
+
+.header--main {
     display: flex;
     justify-content: space-around;
-    background-color: #525bff;
+    align-items: center;
 }
-
 
 .header--left {
-    display: inline-flex;
-    align-items: center;
-    justify-content: right;
-    padding-right: 50px;
-    background-color: #252a3a;
     width: 50%;
-    line-height: 30px;
-    border-top-right-radius: 77px;
-}
-.header--left h2 {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    flex-direction: column;
     text-align: right;
-    padding: 20px;
-    font-size: 42px;
-    color: #fff;
+    padding-left: 250px;
+
+    color: #000;
+    font-size: 38px;
+    font-family: 'Gasoek One', sans-serif;
+    max-width: 350px;
 }
-.header--left h2 span {
-    font-size: 32px;
+.header--left span {
+    margin-top: -20px;
+    color: #fff;
 }
 
 .header--right {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    padding-right: 50px;
-    background-color: #525bff;
-    gap: 20px;
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    gap: 30px;
 }
 .header--right button {
+    width: 200px;
+    padding: 15px;
     border-radius: 100px;
     border: none;
-    width: 200px;
-    padding: 18px;
-    font-size: 15px;
-    text-transform: uppercase;
-    box-shadow: 0px 0px 20px #00000042;
+    font-size: 16px;
 }
-
-.header--right button:hover {
-    transition: 500ms;
+.header--right button:hover{
+    box-shadow: 1px 1px 22px #ffffffbe;
     cursor: pointer;
-    box-shadow: 0px 0px 20px #000000b6;
-    background-color: #252a3a;
-    color: #fff;
-}
-
-/* Section Navegação */
-section.nav--infos {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    background-color: #525bff;
-}
-
-div.container {
-    background-color: #252a3a;
-    width: 1200px;
-    max-width: 1000px;
-}
-
-div.nav--infos-main {
-    padding: 15px;
-}
-div.nav--infos-main ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    font-size: 20px;
-    gap: 160px;
-}
-div.nav--infos-main a {
-    color: #fff;
-}
-div.nav--infos-main a:hover {
-    color: #686cbe;
-}
-
-/* SECTION BANNER */
-section.banner {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
-section.banner .container {
-    background-color: inherit;
-}
-
-div.banner--main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-div.banner--main img {
-    width: 100%;
 }
