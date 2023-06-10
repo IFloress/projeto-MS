@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     background-image: url('..//images/header--background.png');
@@ -57,3 +61,34 @@ header {
     box-shadow: 1px 1px 22px #ffffffbe;
     cursor: pointer;
 }
+
+/* ÁREA DE NAVEGAÇÃO PÓS HEADER */
+
+section.nav--header {
+    width: 100%;
+}
+
+.nav--header-init ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.nav--header-init li {
+    padding: 15px;
+    list-style: none;
+    font-size: 22px;
+    border-bottom: 2px solid #fff;
+    color: #515dff;
+}
+
+.nav--header-init li:hover {
+    display: inline-block;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #000;
+    box-sizing: border-box;
+}
+
+/* ÁREA DO BANNER*/
+
+
