@@ -107,8 +107,8 @@ section.banner {
 .slider--item {
     width: 100vw;
     height: inherit;
+    background-size:cover;
     background-position: center;
-    background-size: cover;
 }
 .slider--controls {
     position: absolute;
