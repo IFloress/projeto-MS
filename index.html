@@ -6,7 +6,6 @@
     <title>Planetario da Sorte</title>
     <link rel="shortcut icon" href="images//favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/script.js"></script>
 </head>
 <body>
     <header class="container">
@@ -32,13 +31,25 @@
     </section>
 
     <section class="banner">
-        <div class="carrosel">
-            <div class="carrosel--item"></div>
-            <div class="carrosel--item"></div>
-            <div class="carrosel--item"></div>
+
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider--control" onclick="goPrev()">
+                    <img src="images/control--left.svg.svg" >
+                </div>
+                <div class="slider--control" onclick="goNext()">
+                    <img src="images/control--right.svg.svg">
+                </div>
+            </div>
+
+            <div class="slider--width">
+                <div class="slider--item" style="background-image: url('images/carrosel1.png');"></div>
+                <div class="slider--item" style="background-image: url('images/carrosel1.png');"></div>
+                <div class="slider--item" style="background-image: url('images/carrosel1.png');"></div>
+            </div>
         </div>
-        <button class="carrosel-prev"></button>
-        <button class="carrosel-next"></button>
     </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
