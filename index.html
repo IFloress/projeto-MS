@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANETARIO DA SORTE</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/carrosel-banner.js"></script>
+    <script defer src="js/efeitos.js"></script>
+</head>
+<body>
+    <!--INICIO DA NAVBAR-->
+    <header>
+        <div class="nav--bar container">
+            <div class="nav--bar-logo">
+                PLANETARIO DA <span class="nav--bar-logo-span">SORTE</span>
+            </div>
+            <div class="nav--bar-other">
+                <ul>
+                    <a href="#"><li>INICIO</li></a>
+                    <a href="#"><li>SOBRE</li></a>
+                    <a href="#"><li>CONTATO</li></a>
+                    <a href="#"><li>APOSTAS</li></a>
+                </ul>
+                <div class="nav--bar-button-area">
+                    <button class="button--navbar login">LOGIN</button>
+                    <button class="button--navbar cadastro">CADASTRO</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--INICIO BANNER-->
+
+    <section id="banner--section">
+        <div class="banner--init container">
+            <div class="slider">
+                <div class="slider--controls">
+                    <div class="slider--control" onclick="goPrev()"></div>
+                    <div class="slider--control" onclick="goNext()"></div>
+
+                <div class="slider--width">
+                    <div class="slider--item" style="background-color: black;"></div>
+                    <div class="slider--item" style="background-color: green;"></div>
+                    <div class="slider--item" style="background-color: yellow;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="apostas">
+        <div class="apostas--init container">
+            <div class="aposta--title"><h2>FAÇA SUA APOSTA</h2></div>
+            <div class="aposta--layout">
+                <div class="aposta--columns">
+
+                    <div class="aposta-card">
+                        <div class="card--front">
+                            <div class="card--header"><img src="images/mega-sena.jpg" alt=""></div>
+                            <div class="card--info-front">
+                                <div class="title--concurso">CONCURSO: 2033</div>
+                                <div class="date--concurso">O SORTEIO OCORRERA 20/07/2023</div>
+                            </div>
+                        </div>
+                        <div class="card--back">
+                            <div class="card--info-front">
+                                <div class="card--back-title">BOLÃO DE 15</div>
+                                <div class="card--back-price">R$20,00</div>
+                                <button class="card--back-buy">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="aposta-card">
+                        <div class="card--front">
+                            <div class="card--header"><img src="images/mega-sena.jpg" alt=""></div>
+                            <div class="card--info-front">
+                                <div class="title--concurso">CONCURSO: 2033</div>
+                                <div class="date--concurso">O SORTEIO OCORRERA 20/07/2023</div>
+                            </div>
+                        </div>
+                        <div class="card--back">
+                            <div class="card--info-front">
+                                <div class="card--back-title">BOLÃO DE 15</div>
+                                <div class="card--back-price">R$20,00</div>
+                                <button class="card--back-buy">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="aposta-card">
+                        <div class="card--front">
+                            <div class="card--header"><img src="images/mega-sena.jpg" alt=""></div>
+                            <div class="card--info-front">
+                                <div class="title--concurso">CONCURSO: 2033</div>
+                                <div class="date--concurso">O SORTEIO OCORRERA 20/07/2023</div>
+                            </div>
+                        </div>
+                        <div class="card--back">
+                            <div class="card--info-front">
+                                <div class="card--back-title">BOLÃO DE 15</div>
+                                <div class="card--back-price">R$20,00</div>
+                                <button class="card--back-buy">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+
+</body>
+</html>
